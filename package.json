@@ -1,0 +1,19 @@
+{
+  "name": "typescript_basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aditraanggra/TypeScript_Basic.git",
+  "author": "Anggra Aditra <aditra.anggra@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "tsc" : "rm -rf /build && tsc",
+    "ts" : "rm -rf /build && tsc -w",
+    "dev" :"nodemon ./build/index.js" 
+ 
+
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.6.2"
+  }
+}
